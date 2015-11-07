@@ -1,18 +1,18 @@
 source 'https://rubygems.org'
 
-gem 'rails', github: "rails/rails"
-gem 'sprockets-rails', github: "rails/sprockets-rails"
-gem 'sprockets', github: "rails/sprockets"
-gem 'sass-rails', github: "rails/sass-rails"
-gem 'arel', github: "rails/arel"
-gem 'rack', github: "rack/rack"
+gem 'rails', github: 'rails/rails'
+gem 'sprockets-rails', github: 'rails/sprockets-rails'
+gem 'sprockets', github: 'rails/sprockets'
+gem 'sass-rails', github: 'rails/sass-rails'
+gem 'arel', github: 'rails/arel'
+gem 'rack', github: 'rack/rack'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', github: "rails/coffee-rails"
+gem 'coffee-rails', github: 'rails/coffee-rails'
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
@@ -20,7 +20,7 @@ gem 'coffee-rails', github: "rails/coffee-rails"
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+gem 'turbolinks', github: 'rails/turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # Use ActiveModel has_secure_password
